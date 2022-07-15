@@ -1,0 +1,75 @@
+#topnav{
+    display:flex;
+    flex-direction:left;
+    background-color:rgb(5, 80, 86);
+    height:80px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:150px;
+    padding-right:50px;
+}
+.center button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    border-radius: 35px;
+    background-color: rgb(76, 93, 245);
+    color: white;
+    cursor: pointer;
+    border:none;
+    position: relative;
+    transition: background-color .4s ease;
+    overflow: hidden;}
+    .product_footer .btn:hover{
+        background-color: rgb(17, 184, 17);
+    }
+.center button:hover{
+    cursor: pointer;
+}  
+.reset button:hover{
+    cursor: pointer;
+} 
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    border-radius: 35px;
+    background-color: rgb(182, 35, 47);
+    color: white;
+    cursor: pointer;
+    border:none;
+    position: relative;
+    transition: background-color .4s ease;
+    overflow: hidden;}
+    .product_footer .btn:hover{
+        background-color: rgb(17, 184, 17);
+    }
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:25px
+}
+.left b{
+    color: rgb(241, 240, 175);
+    font-size: xx-large;
+}

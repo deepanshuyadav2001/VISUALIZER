@@ -1,0 +1,19 @@
+.node{
+ height:25px;   
+ width:40px;
+ border:1px solid rgb(81, 49, 49);
+ background-color:silver;
+}
+.node-start{
+    background-color: red !important;
+    text-align: center !important;
+    cursor: move !important;
+    user-select: none !important;
+    
+}
+.node-end{
+    background-color: green !important;
+    text-align: center !important;
+    cursor: move !important;
+    user-select: none !important;
+}

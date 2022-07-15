@@ -1,0 +1,15 @@
+.row{
+    display:flex;
+}
+.main{
+    max-width:80%;
+    margin:auto;
+
+}
+.main h2{
+    text-decoration: underline;
+    font-family:'Times New Roman', Times, serif
+}
+body{
+    background-color:#eef0e4;
+}
